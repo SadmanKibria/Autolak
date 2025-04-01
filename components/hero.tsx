@@ -49,7 +49,7 @@ export default function Hero() {
           <div className="flex items-center justify-center">
             <div className="relative h-[300px] w-full md:h-[400px] lg:h-[500px]">
               <Image
-                src="/placeholder.svg?height=500&width=500"
+                src="/app/20200115_173550.jpg"
                 alt="Autolak Yellow Garage"
                 fill
                 className="object-contain"
