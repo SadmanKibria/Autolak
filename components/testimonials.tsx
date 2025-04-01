@@ -31,7 +31,7 @@ export default function Testimonials() {
               What Our Customers Say
             </h2>
             <p className="max-w-[700px] text-muted-foreground md:text-xl">
-              Don't just take our word for it - hear from our satisfied
+              Don&apos;t just take our word for it - hear from our satisfied
               customers.
             </p>
           </div>
