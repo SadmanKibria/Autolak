@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Autolak
 
-## Getting Started
+A modern, responsive website built for Autolak Ltd (The Yellow Garage), an auto electrical specialist garage in Ilford, UK. This project was developed to enhance their online presence and showcase their specialised services.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Challenges and Solutions](#challenges-and-solutions)
+- [Key Learning](#key-learning)
+- [Future Enhancements](#future-enhancements)
+- [License](#license)
+
+## Introduction
+
+Autolak The Yellow Garage is a well-established auto electrical repair garage in Ilford, specialising in starter motors and alternators. This website was built to replace their outdated online presence with a modern, responsive site that effectively communicates their services and expertise to potential customers.
+
+The primary goals of this project were to:
+
+- Create a professional, user-friendly website
+- Highlight their specialisation in auto electrical repairs
+- Make it easy for customers to contact the garage
+- Ensure mobile responsiveness for all users
+- Optimise for search engines
+
+## Features
+
+- **Responsive Design**: Fully responsive layout that works on all devices
+- **Service Showcase**: Detailed presentation of specialised auto electrical services
+- **Testimonials**: Customer reviews highlighting the quality of service
+- **Contact Integration**: Direct phone and WhatsApp contact options
+- **FAQ Section**: Comprehensive answers to common customer questions
+- **About Page**: Information about the garage's history and approach
+- **SEO Optimised**: Meta tags and structured content for better search engine visibility
+
+## Technologies Used
+
+**Next.js**, **React**, **TypeScript**, **Tailwind CSS**, **shadcn/ui**, **Lucide Icons** and **Vercel**
+
+## Usage
+
+The website is designed to be intuitive, the main sections include:
+
+- **Home**: Overview of services and direct contact options
+- **Services**: Detailed information about auto electrical services offered
+- **About**: Background information about the garage
+- **FAQ**: Answers to common questions
+
+## Project Structure
+
+```plaintext
+autolak/
+├── app/                  # Next.js app directory
+│   ├── about/            # About page
+│   ├── faq/              # FAQ page
+│   ├── services/         # Services page
+│   ├── layout.tsx        # Root layout component
+│   ├── page.tsx          # Home page
+│   └── globals.css       # Global styles
+├── components/           # Reusable React components
+│   ├── ui/               # shadcn/ui components
+│   ├── hero.tsx          # Hero section component
+│   ├── navbar.tsx        # Navigation component
+│   ├── footer.tsx        # Footer component
+│   └── ...               # Other components
+├── public/               # Static assets
+├── tailwind.config.ts    # Tailwind CSS configuration
+└── ...                   # Other configuration files
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Challenges and Solutions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Challenge 1: Balancing Information Density
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Problem**: The client had a lot of information to convey without overwhelming users.
+**Solution**: Created a clean, hierarchical design with clear visual cues and progressive disclosure of information.
 
-## Learn More
+### Challenge 2: Mobile Responsiveness
 
-To learn more about Next.js, take a look at the following resources:
+**Problem**: Ensuring the design worked well across all device sizes.
+**Solution**: Used Tailwind's responsive utilities and tested extensively on various screen sizes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Challenge 3: Performance Optimisation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Problem**: Ensuring fast load times despite visual elements.
+**Solution**: Leveraged Next.js image optimization, code splitting, and lazy loading techniques.
 
-## Deploy on Vercel
+### Challenge 4: Contact Integration
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Problem**: Making it easy for users to contact the garage.
+**Solution**: Implemented direct call links, WhatsApp integration and prominent display of contact information.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Key Learning
+
+This project provided valuable experience in:
+
+- Building client-focused websites that balance business needs with user experience
+- Implementing SEO best practices in Next.js applications
+- Creating responsive designs that work across all devices
+- Effective use of modern UI component libraries
+- Client communication and requirement gathering
+
+## Future Enhancements
+
+Potential future improvements include:
+
+- Online booking system for appointments
+- Blog section for automotive tips and advice
+- Customer portal for service history
+- Image gallery of completed repairs
+- Live chat support
+
+## License
+
+This project is proprietary and was built for Autolak The Yellow Garage Ltd. The code is not licensed for public use or distribution.
