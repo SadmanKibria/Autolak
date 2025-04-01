@@ -10,13 +10,17 @@ export default function Footer() {
             <div className="flex items-center gap-2 text-sm text-gray-600">
               <Phone className="h-4 w-4 text-brand-600" />
               <div>
-                <p>020 8911 8048</p>
-                <p>020 8514 3637</p>
+                <Link href="tel:+02089118048">
+                  <p>020 8911 8048</p>
+                </Link>
+                <Link href="tel:+02085143637">
+                  <p>020 8514 3637</p>
+                </Link>
               </div>
             </div>
             <div className="flex items-center gap-2 text-sm text-gray-600">
               <MapPin className="h-4 w-4 text-brand-600" />
-              <span>123 Garage Lane, Ilford, IG1 1AA</span>
+              <span>361 Oaklands Park Ave, IG1 1TG</span>
             </div>
             <div className="flex items-center gap-2 text-sm text-gray-600">
               <Clock className="h-4 w-4 text-brand-600" />

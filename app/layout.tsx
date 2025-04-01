@@ -10,14 +10,15 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Autolak | The Yellow Garage - Expert Auto Electrician in Ilford",
   description:
-    "Specialized auto electrical repairs in Ilford. We offer top-notch repairs for starters, alternators and all electrical systems at competitive prices.",
+    "Specialised auto electrical repairs in Ilford. We offer top-notch repairs for starters, alternators and all electrical systems at competitive prices.",
+  icons: "/favicon.png",
   keywords:
     "auto electrician, car electrical repairs, starter motor repairs, alternator repairs, Ilford garage, Yellow Garage, Autolak, car repairs Ilford, auto electrical specialist",
   authors: [{ name: "Sadman Kibria", url: "https://www.sadmankibria.com" }],
   openGraph: {
     title: "Autolak | The Yellow Garage - Expert Auto Electrician in Ilford",
     description:
-      "Specialized auto electrical repairs in Ilford. We offer top-notch repairs for starters, alternators and all electrical systems at competitive prices.",
+      "Specialised auto electrical repairs in Ilford. We offer top-notch repairs for starters, alternators and all electrical systems at competitive prices.",
     url: "https://autolakyellowgarage.co.uk",
     siteName: "Autolak - The Yellow Garage",
     locale: "en_GB",

@@ -75,7 +75,7 @@ export default function ServicesPage() {
             Auto Electrical Specialists
           </h2>
           <p className="text-lg">
-            At Autolak, we specialize in auto electrical systems, with
+            At Autolak, we specialise in auto electrical systems, with
             particular expertise in starter motors and alternators. Our skilled
             technicians provide reliable, efficient service at competitive
             prices.
@@ -89,13 +89,13 @@ export default function ServicesPage() {
           <p className="mb-2">Call us today to book an appointment:</p>
           <div className="flex gap-4 flex-wrap">
             <Link
-              href="tel:02089118048"
+              href="tel:+02089118048"
               className="font-bold text-brand-700 hover:underline"
             >
               020 8911 8048
             </Link>
             <Link
-              href="tel:02085143637"
+              href="tel:+02085143637"
               className="font-bold text-brand-700 hover:underline"
             >
               020 8514 3637
@@ -186,14 +186,14 @@ export default function ServicesPage() {
               size="lg"
               className="bg-brand-600 hover:bg-brand-700 text-black"
             >
-              <Link href="tel:02089118048">
+              <Link href="tel:+02089118048">
                 <Phone className="mr-2 h-5 w-5" />
                 Call Us Now
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg">
               <Link
-                href="https://wa.me/447700900123"
+                href="https://wa.me/447549388887"
                 target="_blank"
                 rel="noopener noreferrer"
               >

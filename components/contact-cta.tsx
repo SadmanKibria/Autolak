@@ -24,7 +24,7 @@ export default function ContactCta() {
               variant="default"
               className="bg-brand-600 hover:bg-brand-700 text-black"
             >
-              <Link href="tel:02089118048">
+              <Link href="tel:+02089118048">
                 <Phone className="mr-2 h-5 w-5" />
                 Call Us Now
               </Link>
@@ -36,7 +36,7 @@ export default function ContactCta() {
               className="bg-transparent border-gray-700 text-gray-700 hover:bg-gray-100"
             >
               <Link
-                href="https://wa.me/447700900123"
+                href="https://wa.me/447549388887"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -26,11 +26,6 @@ export default function FaqPage() {
         "In many cases, yes. Simple repairs like battery replacements or basic electrical fixes can often be completed within a few hours. More complex issues might require parts ordering or additional diagnostic time. We always aim to provide a clear timeframe when you bring in your vehicle.",
     },
     {
-      question: "Do you offer any warranty on your repairs?",
-      answer:
-        "Yes, we provide a 12-month warranty on all parts and labor for electrical repairs. This gives you peace of mind knowing that we stand behind our work and the quality of parts we use.",
-    },
-    {
       question: "How often should I replace my car battery?",
       answer:
         "Car batteries typically last 3-5 years, depending on usage patterns, climate, and the vehicle's electrical demands. We recommend having your battery tested annually after it's 2 years old to monitor its condition and prevent unexpected failures.",
@@ -87,14 +82,14 @@ export default function FaqPage() {
               asChild
               className="bg-brand-600 hover:bg-brand-700 text-black"
             >
-              <Link href="tel:02089118048">
+              <Link href="tel:+02089118048">
                 <Phone className="mr-2 h-5 w-5" />
                 Call Us Now
               </Link>
             </Button>
             <Button asChild variant="outline">
               <Link
-                href="https://wa.me/447700900123"
+                href="https://wa.me/447549388887"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -14,10 +14,10 @@ export default function Hero() {
                 Expert Auto Electrician in Ilford
               </h1>
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                Welcome to our renowned repair garage in Ilford, where
+                Welcome to our renowned repair garage in Ilford where
                 exceptional service meets affordability.{" "}
                 <span className="font-semibold text-brand-700">
-                  We specialise in auto electrics, with expert focus on starters
+                  We specialise in auto electrics with expert focus on starters
                   and alternators.
                 </span>
               </p>
@@ -29,14 +29,14 @@ export default function Hero() {
                 size="lg"
                 className="bg-brand-600 hover:bg-brand-700 text-black"
               >
-                <Link href="tel:02089118048">
+                <Link href="tel:+02089118048">
                   <Phone className="mr-2 h-5 w-5" />
                   Call Us Now
                 </Link>
               </Button>
               <Button asChild variant="outline" size="lg">
                 <Link
-                  href="https://wa.me/447700900123"
+                  href="https://wa.me/447549388887"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -49,7 +49,7 @@ export default function Hero() {
           <div className="flex items-center justify-center">
             <div className="relative h-[300px] w-full md:h-[400px] lg:h-[500px]">
               <Image
-                src="/app/20200115_173550.jpg"
+                src="/autolak.jpg?height=500&width=500"
                 alt="Autolak Yellow Garage"
                 fill
                 className="object-contain"

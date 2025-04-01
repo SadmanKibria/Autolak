@@ -3,7 +3,7 @@ import { Clock, Wrench, Award, ShieldCheck, Smile, Zap } from "lucide-react";
 export default function WhyChooseUs() {
   const reasons = [
     {
-      title: "Specialized expertise",
+      title: "Specialised expertise",
       description: "Expert knowledge in auto electrical systems",
       icon: <Award className="h-8 w-8 text-brand-600" />,
     },
@@ -29,7 +29,7 @@ export default function WhyChooseUs() {
     },
     {
       title: "Guaranteed work",
-      description: "12-month warranty on all repairs",
+      description: "Always garranty and support on all repairs",
       icon: <Zap className="h-8 w-8 text-brand-600" />,
     },
   ];

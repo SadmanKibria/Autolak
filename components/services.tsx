@@ -45,7 +45,7 @@ export default function Services() {
               Our Services
             </h2>
             <p className="max-w-[700px] text-muted-foreground md:text-xl">
-              We specialize in{" "}
+              We specialise in{" "}
               <span className="font-semibold text-brand-700">
                 auto electrical systems
               </span>

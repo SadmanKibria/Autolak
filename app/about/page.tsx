@@ -14,7 +14,7 @@ export default function AboutPage() {
         <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
           <div>
             <Image
-              src="/placeholder.svg?height=400&width=600"
+              src="/autolak_about.jpg?height=400&width=600"
               alt="Autolak Garage"
               width={600}
               height={400}
@@ -62,14 +62,14 @@ export default function AboutPage() {
               size="lg"
               className="bg-brand-600 hover:bg-brand-700 text-black"
             >
-              <Link href="tel:02089118048">
+              <Link href="tel:+02089118048">
                 <Phone className="mr-2 h-5 w-5" />
                 Call Us Now
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg">
               <Link
-                href="https://wa.me/447700900123"
+                href="https://wa.me/447549388887"
                 target="_blank"
                 rel="noopener noreferrer"
               >

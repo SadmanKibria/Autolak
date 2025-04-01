@@ -48,7 +48,7 @@ export default function Navbar() {
             className="hidden md:flex"
           >
             <Link
-              href="https://wa.me/447700900123"
+              href="https://wa.me/447549388887"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -62,7 +62,7 @@ export default function Navbar() {
             size="sm"
             className="hidden md:flex bg-brand-600 hover:bg-brand-700 text-black"
           >
-            <Link href="tel:02089118048">
+            <Link href="tel:+02089118048">
               <Phone className="mr-2 h-4 w-4" />
               Call Us Now
             </Link>
@@ -91,14 +91,17 @@ export default function Navbar() {
                   asChild
                   className="mt-4 bg-brand-600 hover:bg-brand-700 text-black"
                 >
-                  <Link href="tel:02089118048" onClick={() => setIsOpen(false)}>
+                  <Link
+                    href="tel:+02089118048"
+                    onClick={() => setIsOpen(false)}
+                  >
                     <Phone className="mr-2 h-4 w-4" />
                     Call Us Now
                   </Link>
                 </Button>
                 <Button asChild variant="outline" className="mt-2">
                   <Link
-                    href="https://wa.me/447700900123"
+                    href="https://wa.me/447549388887"
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={() => setIsOpen(false)}
