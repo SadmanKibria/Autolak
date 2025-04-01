@@ -53,7 +53,7 @@ export default function Testimonials() {
                   ))}
                 </div>
                 <p className="text-muted-foreground mb-4 min-h-[100px]">
-                  "{testimonial.text}"
+                  {`"${testimonial.text}"`}
                 </p>
               </CardContent>
               <CardFooter className="flex justify-between items-center">
